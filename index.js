@@ -46,7 +46,7 @@ app.get('/tiwitter',(req,res)=>{
 app.get('/login',(req,res)=>{
   res.send('hello login')
 })
-app.get('/login',(req,res)=>{
+app.get('/githubdata',(req,res)=>{
   res.json(githubdata)
 })
 app.listen(process.env.PORT,()=>{
