@@ -1,18 +1,15 @@
 {
-  "name": "nodejs",
+  "name": "backend",
   "version": "1.0.0",
-  "description": "asd",
   "main": "index.js",
+  "type":"module",
   "scripts": {
     "start": "node index.js"
   },
-  "keywords": [
-    "node"
-  ],
   "author": "",
   "license": "ISC",
+  "description": "",
   "dependencies": {
-    "dotenv": "^17.0.1",
     "express": "^5.1.0"
   }
 }
