@@ -32,4 +32,8 @@ const githubdata={
   "following": 0, 
   "created_at": "2015-03-23T13:03:25Z", 
   "updated_at": "2025-07-01T03:18:33Z" }
-  app.get('/',(req,res)=>{ res.send('hello world') }) app.get('/tiwitter',(req,res)=>{ res.send('hello tiwitter') }) app.get('/login',(req,res)=>{ res.send('hello login') }) app.get('/githubdata',(req,res)=>{ res.json(githubdata) }) app.listen(process.env.PORT,()=>{ console.log(`listenning on port ${port}`); })
+  app.get('/',(req,res)=>{ res.send('hello world') })
+    app.get('/tiwitter',(req,res)=>{ res.send('hello tiwitter') })
+      app.get('/login',(req,res)=>{ res.send('hello login') }) 
+        app.get('/githubdata',(req,res)=>{ res.json(githubdata) }) 
+          app.listen(process.env.PORT,()=>{ console.log(`listenning on port ${port}`); })
